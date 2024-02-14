@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+
+		<header class="navBarMainContainer">
+
+			<ul class="optionsContainer">
+				<li>Inicio</li>
+				<li>Servicio</li>
+				<li>Productos</li>
+			</ul>
+			<div class="logoYCanastaContainer">
+				<img src="./images/logo.svg" alt="">
+				<button class="canastaButton" id="canasta">		<svg
+					xmlns="http://www.w3.org/2000/svg"
+					fill="none"
+					viewBox="0 0 24 24"
+					stroke-width="1.5"
+					stroke="currentColor"
+					class="icon-cart"
+				>
+					<path
+						stroke-linecap="round"
+						stroke-linejoin="round"
+						d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+					/>
+				</svg></button>
+				<div class="canasta">
+						<div class="elemento">
+							<p>Cantidad</p>
+							<p>Hamburguesa</p>
+							<p>Precio</p>
+						</div>
+						<div class="elementoApintar">
+							
+						</div>
+			
+						
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section class="principalContentContainer">
+				<div class="infoMainContainer">
+					<h1>HAMBURGUESA</h1>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint suscipit quasi ut doloremque officiis illo laborum? Impedit, totam dolore? Voluptas odio ad error quibusdam, sapiente reprehenderit quae accusantium id voluptatibus?</p>
+					<div class="botonesContainer">
+						<button>COMPRAR</button>
+						<button>MENU</button>
+					</div>
+				</div>
+				<div class="imageMainContainer">
+					<img src="./images/slider1.png" alt=""> 
+				</div>
+			</section>
+			<section class="menuPrincipalContainer">
+				<h2>Hamburguesas</h2>
+				<div class="menuGridContainer">
+					<div class="hambuerguesa">
+						<div class="hamburguesaImage">
+							<img
+							src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YnVyZ2VyfGVufDB8fDB8fHww"
+							alt="producto"
+						/>
+						</div>
+						<div class="hamburguesaInfo">
+							<h2>Parrillera</h2>
+							<p>$<span id="precio1">24</span></p>
+							<button class="añadir" data-id="1">Añadir al carrito</button>
+						</div>
+					</div>
+
+					<div class="hambuerguesa">
+						<div class="hamburguesaImage">
+							<img
+							src="https://images.unsplash.com/photo-1553979459-d2229ba7433b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fGJ1cmdlcnxlbnwwfHwwfHx8MA%3D%3D"
+							alt="producto"
+						/>
+						</div>
+						<div class="hamburguesaInfo">
+							<h2>Carnivora</h2>
+							<p>$<span id="precio2">30</span></p>
+							<button class="añadir" data-id="2">Añadir al carrito</button>
+						</div>
+					</div>
+
+					<div class="hambuerguesa">
+						<div class="hamburguesaImage">
+	
+							<img
+							src="https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzR8fGJ1cmdlcnxlbnwwfHwwfHx8MA%3D%3D"
+							alt="producto"
+						/>
+						</div>
+						<div class="hamburguesaInfo">
+							<h2>Crispy</h2>
+							<p>$<span id="precio3">21</span></p>
+							<button class="añadir" data-id="3">Añadir al carrito</button>
+						</div>
+					</div>
+
+					<div class="hambuerguesa">
+						<div class="hamburguesaImage">
+							<img
+							src="https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGJ1cmdlcnxlbnwwfHwwfHx8MA%3D%3D"
+						/>
+						</div>
+						<div class="hamburguesaInfo">
+							<h2>Doble todo</h2>
+							<p>$<span id="precio4">26</span></p>
+							<button class="añadir" data-id="4">Añadir al carrito</button>
+						</div>
+					</div>
+
+					<div class="hambuerguesa">
+						<div class="hamburguesaImage">
+							<img
+							src="https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGJ1cmdlcnxlbnwwfHwwfHx8MA%3D%3D"
+							alt="producto"
+						/>
+						</div>
+						<div class="hamburguesaInfo">
+							<h2>Combo 1</h2>
+							<p>$<span id="precio5">35</span></p>
+							<button class="añadir" data-id="5">Añadir al carrito</button>
+						</div>
+					</div>
+
+					<div class="hambuerguesa">
+						<div class="hamburguesaImage">
+							<img
+							src="https://images.unsplash.com/photo-1549611016-3a70d82b5040?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDZ8fGJ1cmdlcnxlbnwwfHwwfHx8MA%3D%3D"							alt="producto"
+						/>
+						</div>
+						<div class="hamburguesaInfo">
+							<h2>Huachana</h2>
+							<p>$<span id="precio2">25</span></p>
+							<button class="añadir" data-id="6">Añadir al carrito</button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer>
+			<section class="footerMainContent">
+				<div class="masInfoFlexContainer">
+					<div class="infoContainer">
+						<h2>Dirección</h2>
+						<p>LOREM IMPSUN DOLOR SIT</p>
+						<p>CONSECTETUR ADISIPILING ELIT</p>
+					</div>
+					<div class="infoContainer">
+						<h2>Horario</h2>
+						<p>LUNES A VIERNES: 9AM A 8PM</p>
+						<p>SÁBADO Y DOMINGO: 11AM A 7PM</p>
+					</div>
+					<div class="infoContainer">
+						<h2>Teléfono</h2>
+						<p>351-9987</p>
+						<p>975-621000</p>
+					</div>
+					<div class="infoContainer">
+						<h2>Redes</h2>
+						<div class="iconosRedesSocialesContainer">
+							<img src="./images/s1.svg" alt="">
+							<img src="./images/s2.svg" alt="">
+							<img src="./images/s3.svg" alt="">
+						</div>
+						
+					</div>
+				</div>
+				<section>
+					<iframe
+						class="map"
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d240864.08481701676!2d-99.14361265000001!3d19.3907336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85ce0026db097507%3A0x54061076265ee841!2zQ2l1ZGFkIGRlIE3DqXhpY28sIENETVgsIE3DqXhpY28!5e0!3m2!1ses-419!2spe!4v1707086843097!5m2!1ses-419!2spe"
+						width="100%"
+						height="500"
+						style="border: 0"
+						allowfullscreen=""
+						loading="lazy"
+						referrerpolicy="no-referrer-when-downgrade"
+					></iframe>
+				</section>
+			</section>
+			<div class="masInfoFlexContainer">
+				<img src="./images/logo.svg" alt="" class="logoImagen">
+				<div class="infoContainer">
+					<h2>Horario</h2>
+					<p>LUNES A VIERNES: 9AM A 8PM</p>
+					<p>SÁBADO Y DOMINGO: 11AM A 7PM</p>
+				</div>
+				<div class="infoContainer">
+					<h2>Teléfono</h2>
+					<p>351-9987</p>
+					<p>975-621000</p>
+				</div>
+				<div class="infoContainer">
+					<h2>Redes</h2>
+					<div class="iconosRedesSocialesContainer">
+						<img src="./images/s1.svg" alt="">
+						<img src="./images/s2.svg" alt="">
+						<img src="./images/s3.svg" alt="">
+					</div>
+					
+				</div>
+			</div>
+		</footer>
+	<script src="script.js"></script>
+	</body>
+</html>
